@@ -2,8 +2,8 @@
 # todo:
 # - use XML ISO entities from sgml-common
 #
-Summary:	XML/SGML DocBook DTD 4.2
-Summary(pl):	XML/SGML DocBook DTD 4.2
+Summary:	XML/SGML DocBook DTD 4.3
+Summary(pl):	XML/SGML DocBook DTD 4.3
 %define ver	4.3
 Name:		docbook-dtd43-xml
 Version:	1.0
