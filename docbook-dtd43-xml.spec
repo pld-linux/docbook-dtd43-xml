@@ -5,7 +5,7 @@
 Summary:	XML/SGML DocBook DTD 4.2
 Summary(pl):	XML/SGML DocBook DTD 4.2
 %define ver	4.3
-Name:		docbook-dtd42-xml
+Name:		docbook-dtd43-xml
 Version:	1.0
 Release:	4
 Vendor:		OASIS
