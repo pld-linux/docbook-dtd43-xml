@@ -11,9 +11,9 @@ Release:	1
 Vendor:		OASIS
 License:	Free
 Group:		Applications/Publishing/XML
-URL:		http://www.oasis-open.org/docbook/
 Source0:	http://www.oasis-open.org/docbook/xml/%{ver}/docbook-xml-%{ver}.zip
 # Source0-md5:	ab200202b9e136a144db1e0864c45074
+URL:		http://www.oasis-open.org/docbook/
 BuildRequires:	libxml2-progs
 BuildRequires:	rpm-build >= 4.0.2-94
 BuildRequires:	unzip
