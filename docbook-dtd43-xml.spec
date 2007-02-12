@@ -3,7 +3,7 @@
 # - use XML ISO entities from sgml-common
 #
 Summary:	XML/SGML DocBook DTD 4.3
-Summary(pl):	XML/SGML DocBook DTD 4.3
+Summary(pl.UTF-8):   XML/SGML DocBook DTD 4.3
 %define ver	4.3
 Name:		docbook-dtd43-xml
 Version:	1.0
@@ -34,10 +34,10 @@ DocBook is an XML/SGML vocabulary particularly well suited to books
 and papers about computer hardware and software (though it is by no
 means limited to only these applications).
 
-%description -l pl
-DocBook DTD jest zestawem definicji dokumentów XML/SGML przeznaczonych
+%description -l pl.UTF-8
+DocBook DTD jest zestawem definicji dokumentÃ³w XML/SGML przeznaczonych
 do tworzenia dokumentacji technicznej. Stosowany jest do pisania
-podrêczników systemowych, instrukcji jak i wielu innych ciekawych
+podrÄ™cznikÃ³w systemowych, instrukcji jak i wielu innych ciekawych
 rzeczy.
 
 %prep
