@@ -7,7 +7,7 @@ Summary(pl.UTF-8):	XML/SGML DocBook DTD 4.3
 %define ver	4.3
 Name:		docbook-dtd43-xml
 Version:	1.0
-Release:	1
+Release:	2
 Vendor:		OASIS
 License:	Free
 Group:		Applications/Publishing/XML
