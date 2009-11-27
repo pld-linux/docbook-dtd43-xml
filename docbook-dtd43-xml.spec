@@ -2,13 +2,12 @@
 # todo:
 # - use XML ISO entities from sgml-common
 #
+%define ver	4.3
 Summary:	XML/SGML DocBook DTD 4.3
 Summary(pl.UTF-8):	XML/SGML DocBook DTD 4.3
-%define ver	4.3
 Name:		docbook-dtd43-xml
 Version:	1.0
 Release:	2
-Vendor:		OASIS
 License:	Free
 Group:		Applications/Publishing/XML
 Source0:	http://www.oasis-open.org/docbook/xml/%{ver}/docbook-xml-%{ver}.zip
@@ -17,11 +16,10 @@ URL:		http://www.oasis-open.org/docbook/
 BuildRequires:	libxml2-progs
 BuildRequires:	rpm-build >= 4.0.2-94
 BuildRequires:	unzip
-PreReq:		libxml2
-PreReq:		sgml-common
 Requires(post,preun):	/usr/bin/install-catalog
 Requires(post,preun):	/usr/bin/xmlcatalog
 Requires:	libxml2-progs >= 2.4.17-6
+Requires:	sgml-common
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
